@@ -58,4 +58,15 @@ public class MainActivity extends AppCompatActivity {
     public void onResetPwd(View view) {
         deviceManger.resetPassword("123456");
     }
+
+
+    // 禁用相机
+    public void onDisableCamera(View view) {
+        deviceManger.disableCamera(true);
+    }
+
+    // 解除禁用相机
+    public void enableCamera(View view) {
+        deviceManger.disableCamera(false);
+    }
 }

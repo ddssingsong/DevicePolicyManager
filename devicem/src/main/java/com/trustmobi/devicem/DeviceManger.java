@@ -116,4 +116,16 @@ public class DeviceManger {
             Toast.makeText(mContext, "请先激活设备", Toast.LENGTH_SHORT).show();
         }
     }
+
+    // 禁用相机
+    public void disableCamera(boolean disabled) {
+        if (devicePolicyManager.isAdminActive(componentName)) {
+            devicePolicyManager.setCameraDisabled(componentName, disabled);
+        } else {
+            Toast.makeText(mContext, "请先激活设备", Toast.LENGTH_SHORT)
+                    .show();
+        }
+    }
+
+
 }

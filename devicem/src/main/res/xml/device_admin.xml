@@ -12,5 +12,15 @@
         <!-- 恢复出厂设置 -->
         <wipe-data />
 
+        <!--禁用相机-->
+        <disable-camera />
+
+        <disable-keyguard-features />
+
+        <set-global-proxy />
+
+        <!-- 设置锁屏密码的有效期 -->
+        <expire-password />
+
     </uses-policies>
 </device-admin>

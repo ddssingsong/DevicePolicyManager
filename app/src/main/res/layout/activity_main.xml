@@ -71,14 +71,16 @@
         <Button
             android:id="@+id/button9"
             android:layout_width="match_parent"
+            android:onClick="onDisableCamera"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="禁用相机" />
 
         <Button
             android:id="@+id/button10"
             android:layout_width="match_parent"
+            android:onClick="enableCamera"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="解除禁用相机" />
 
         <Button
             android:id="@+id/button11"
