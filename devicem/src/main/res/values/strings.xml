@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DeviceM</string>
+    <string name="dm_extra_add_explanation">激活设备管理器</string>
 </resources>
