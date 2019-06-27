@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     // 设置5秒后锁屏
     public void lockOnTime(View view) {
-        deviceManger.lockByTime(30000);
+        deviceManger.lockByTime(5000);
     }
 
     // 清除数据  恢复出厂设置
