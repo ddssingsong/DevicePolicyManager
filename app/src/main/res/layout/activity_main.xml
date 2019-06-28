@@ -59,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onWipeData"
-            android:text="恢复出厂设置" />
+            android:text="(清空数据)恢复出厂设置" />
 
         <Button
             android:id="@+id/button8"
